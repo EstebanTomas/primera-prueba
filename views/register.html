@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>formulario</title>
+</head>
+
+<body>
+    <form action="/procesador" method="POST" class="section-form">
+        <div class="random-compos">
+            <label>Nombre y Apellido</label>
+            <input type="text" name="nombre" placeholder="nombre y apellido" class="unidad-campos">
+        </div>
+        <div class="random-compos">
+            <label>Nombre de usuario</label>
+            <input type="text" name="nombre" placeholder="Barto" class="unidad-campos">
+        </div>
+        <div class="random-compos">
+            <label>Fecha de nacimiento</label>
+            <input type="date" name="calendario" class="unidad-campos">
+        </div>
+        <div class="random-compos">
+            <label>Domicilio</label>
+            <input type="text" name="unidad-campos" class="unidad-campos">
+        </div>
+        <div class="random-compos">
+            <label>Contraseña</label>
+            <input type="password" name="password1" placeholder="contraseña" class="unidad-campos">
+        </div>
+        <div class="random-compos">
+            <label>Confirmar Contraseña</label>
+            <input type="password" name="password2" placeholder="confirme su contraseña" class="unidad-campos">
+        </div>
+        <p>Perfil del usuario</p>
+        <div class="radio-button">
+            <label>
+                <input type="radio">Comprador
+            </label>
+            <label>
+                <input type="radio">Vendedor
+            </label>
+        </div>
+        <div class="option">
+            <label>De interes</label>
+            <input type="checkbox" name="checkchek">Electro
+            <br>
+            <input type="checkbox" name="checkchek">Moda
+            <br>
+            <input type="checkbox" name="checkchek">Juguetería
+            <br>
+            <input type="checkbox" name="checkchek">Vida sana
+        </div>
+        <div class="two-burron">
+            <button type="submit" class="button">Enviar</button>
+            <br>
+            <button type="reset" class="button">borrar</button>
+        </div>
+    </form> 
+
+ </body>
+
+</html>

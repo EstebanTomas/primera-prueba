@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #50CB93;
+}
+
+.section-form {
+    border: solid grey 2px;
+    padding: 0px 21px;
+}
+
+.option {
+    margin: 0% 3%;
+}
+
+.option input {
+    margin-top: 10px;
+}
+
+div label {
+    display: block;
+    margin-top: 12px;
+    font-size: 21px
+}
+
+p {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px 16px;
+    margin-top: 21px;
+} 
+
+.unidad-campos {
+    text-align: center;
+    font-size: 110%;
+    width: 100%;
+    height: 6vh;
+    border-radius: 12px;
+}
+
+.radio-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.two-burron {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 8px;
+    height: 8vh;
+}
+
+.button {
+    border-radius: 8px;
+    width: 30vw;
+    height: 4vh;
+    color: black;
+    background-color: #ACFFAD;
+} 
+

@@ -1,0 +1,33 @@
+body {
+    font-family     : Arial, Helvetica, sans-serif;
+    background-color: rgba(231, 175, 22, 0.4);
+    font-size       : 40px;
+    line-height     : 45px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    font-size : 40px;
+}
+
+div h3 {
+    color: green;
+
+}
+
+div {
+    text-align : center;
+    font-size  : 25px;
+    line-height: 30px;
+}
+
+p {
+    font-size  : 14px;
+    line-height: 22px;
+}
+

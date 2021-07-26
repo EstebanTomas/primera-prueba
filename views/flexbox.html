@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/flexbox.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <script src="https://kit.fontawesome.com/7a73fadbcd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>mercado liebre</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-logo">
+            <img src="/image/el-logo-mercado-liebre.svg" class="logo-img">
+
+            <h2 class="copy-header">
+                <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+        </div>
+
+        <a href="" class="hanburguer-menu">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <nav class="main-header-bottom-bar">
+            <ul class="left">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+
+            <ul class="right">
+                <li><a href="#">Creá tu cuenta<i class="far fa-address-card"></i></a></li>
+                <li><a href="#">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="/guardar-datos" method="POST" class="creacion-formulario">
+            <div class="estructura-campo">
+                <label>Nombre del producto:</label>
+                <input type="text" name="nombre" class="estiloSelect">
+            </div>
+            <div class="estructura-campo">
+                <label>Precio:</label>
+                <input type="text" name="precio" placeholder="123.56" class="estiloSelect">
+            </div>
+            <div class="estructura-campo">
+                <label>Categoria:</label>
+                <select name="categoria" class="estiloSelect">
+                    <option value="hogar">Hogar</option>
+                    <option value="indumentaria">Indumentaria</option>
+                    <option value="limpieza">Limpieza</option>
+                    <option value="herramientas">Herramientas</option>
+                </select>
+            </div>
+            <div class="estructura-campo">
+
+                <label>Ciudad:</label>
+                <select name="ciudad" class="estiloSelect">
+                    <option value="chascomus">Chascomus</option>
+                    <option value="lezama">Lezama</option>
+                    <option value="dolores">Dolores</option>
+                    <option value="cordoba">Cordoba</option>
+                </select>
+            </div>
+            <div class="estructura-campo">
+                <label>Descripción:</label>
+                <textarea name="descripción" id="texto" class="estiloSelect"></textarea>
+            </div>
+            <div class="estructura-campo">
+                <label>Esta en Oferta:</label>
+                <input type="radio" name="enOferta">
+            </div>
+            <div class="estructura-campo">
+                <button type="submit">Enviar</button>
+                <button type="reset">borrar</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
