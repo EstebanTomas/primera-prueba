@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    background-color: #595260;
+    background-color: white;
 }
 
 .conteiner-one {
@@ -82,11 +82,17 @@ main {
     background-color: #0022AA;
 }
 
+footer {
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .footer-botton {
     margin-top: 20px;
     padding: 15px;
     text-align: center;
-    background-color: #126E82;
 }
 
 .icono {
